@@ -1,0 +1,30 @@
+.container {
+  --background-color: #fff;
+  --color: var(--clr-primary-200);
+
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #bbbbbb;
+  border-radius: 12px;
+  /* padding: 4px; */
+  background-color: var(--background-color);
+  color: var(--color);
+  font-size: var(--fs-300);
+}
+
+.button {
+  --color: inherit;
+  background-color: transparent;
+  border: none;
+  appearance: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 12px;
+  cursor: pointer;
+  color: var(--color);
+  /* transition: all 0.2s; */
+}
+
+.button.active {
+  background-color: #232323;
+  color: #fff;
+}

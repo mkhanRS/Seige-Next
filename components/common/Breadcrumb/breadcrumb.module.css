@@ -1,0 +1,21 @@
+.breadcrumb li a {
+  text-decoration: none;
+}
+
+.breadcrumb li a.active {
+  color: rgba(57, 57, 57, 1);
+}
+
+.breadcrumb li {
+  display: inline-block;
+  margin: 0 0.4rem;
+}
+
+.breadcrumb li:first-of-type {
+  margin: 0;
+}
+
+.breadcrumb li:last-of-type .next {
+  /* hide separator after the last item */
+  display: none;
+}
