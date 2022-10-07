@@ -575,3 +575,75 @@ select {
 .br--2 {
   border-radius: 0.85rem;
 }
+
+
+/* login */
+.left__wrapper {
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.right__wrapper {
+  display: flex;
+  align-items: center;
+  background: #F5F6F8;
+  border-radius: 0px 24px 24px 0px;
+}
+
+.login__header {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 24px;
+  color: #44495B;
+  padding: 2rem 6rem;
+}
+
+.login__form {
+  width: 100%;
+  padding: 3rem 6rem;
+}
+
+.login__form label {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #44495B;
+}
+
+.form__input {
+  display: block;
+  padding: 0.25rem 1rem;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  line-height: 1.5;
+  background: #FFFFFF;
+  border: 1px solid #EDEFF5;
+  border-radius: 12px;
+}
+
+.login__btn {
+  background: #6992FC;
+  border-radius: 12px;
+  width: 100%;
+  border: none;
+  color: #fff;
+  padding: 10px 5px;
+}
+
+.login__footer {
+  position: relative;
+  left: 96px;
+  bottom: -150px;
+  color: #6A6E83;
+}
+
+.f__password__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #6992FC;
+}
