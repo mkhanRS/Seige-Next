@@ -20,9 +20,9 @@ const LoginLeft = () => {
           </div>
 
           <div className="d--f ai--b columns" style={{ marginTop: "2rem" }}>
-            <div>
+            <div className="d--f ai--c">
               <input type="checkbox" name="remember" />
-              <label style={{ paddingLeft: "0.5rem" }} htmlFor="remember">Remember me</label>
+              <label style={{ paddingLeft: "0.75rem" }} htmlFor="remember">Remember me</label>
             </div>
             <div className="d--f jc--fe">
               <span className="f__password__text">Forgot Password?</span>

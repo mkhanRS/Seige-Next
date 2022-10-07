@@ -1,7 +1,7 @@
 const LoginRight = () => {
   return (
-    <div className="image__wrapper" style={{ padding: "1rem" }}>
-      <img src="/sample_image2.jpg" alt="sample login image" />
+    <div className="image__wrapper" style={{ padding: "2rem" }}>
+      <img src="/login_image.png" alt="sample login image" />
     </div>
   )
 }
