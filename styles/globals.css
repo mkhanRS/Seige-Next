@@ -270,6 +270,14 @@ select {
   padding-left: 1.5rem;
 }
 
+.main__sidebar__normal {
+  margin-left: 75px;
+}
+
+.main__sidebar__expanded {
+  margin-left: 310px;
+}
+
 .d__none {
   display: none;
 }
@@ -396,6 +404,13 @@ select {
   --padding: 1rem;
 
   width: min(var(--max-width), 100% - (var(--padding) * 2));
+  margin-inline: auto;
+  padding-block: 1rem;
+}
+
+.container-fluid {
+  padding: 1rem;
+  width: 100%;
   margin-inline: auto;
   padding-block: 1rem;
 }

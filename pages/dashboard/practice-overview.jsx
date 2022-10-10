@@ -32,7 +32,7 @@ export default function PracticeOverViewPage() {
 
   return (
     <div style={{ position: "relative", minHeight: "calc(100vh - var(--size-nav))" }}>
-      <div className="container flow">
+      <div className="container-fluid flow">
         <Breadcrumb />
 
         <div className="d--f ai--c fw--w">

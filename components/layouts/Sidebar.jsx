@@ -35,7 +35,7 @@ const SIDEBAR_LINKS = [
   },
 ];
 
-export default function SideBar() {
+export default function SideBar({ setExpSidebar }) {
   const router = useRouter();
   const [activeLink, setActiveLink] = useState("46f7dc9b-e75d-40e0-8d14-1e7334d16d5e");
   const handleActiveRoute = (link) => {
@@ -47,8 +47,9 @@ export default function SideBar() {
   // to expand sidebar
   const [expandSidebar, setExpandSidebar] = useState(false);
   const handleExpandSidebar = () => {
-    console.log("expandSidebar ", expandSidebar);
+    // console.log("expandSidebar ", expandSidebar);
     setExpandSidebar(!expandSidebar);
+    setExpSidebar(!expandSidebar);
   }
 
   return (
